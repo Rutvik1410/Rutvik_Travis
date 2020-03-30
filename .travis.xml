@@ -3,4 +3,4 @@ os: linux
 
 sudo: false
 compiler: gcc
-script: build.sh 
+script: ./build.sh 
