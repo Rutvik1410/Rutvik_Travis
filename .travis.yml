@@ -3,4 +3,6 @@ os: linux
 arch: ARM64
 sudo: false
 compiler: gcc
-script: ./build.sh 
+script: 
+  - ./build.sh 
+  - ./t.sh
